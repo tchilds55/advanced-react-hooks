@@ -14,6 +14,8 @@ const countReducer = (state, action) => {
     case 'DECREMENT':
       return {count: state.count - action.step}
       break
+    case 'Other':
+      break
     default:
       break
   }
